@@ -1,0 +1,34 @@
+# postgres
+https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database
+https://harshityadav95.medium.com/postgresql-in-windows-subsystem-for-linux-wsl-6dc751ac1ff3
+https://www.postgresql.org/docs/7.0/install17165.htm
+https://www.datacamp.com/community/tutorials/beginners-introduction-postgresql
+https://www.postgresqltutorial.com/psql-commands/
+
+https://stackoverflow.com/questions/55038942/fatal-password-authentication-failed-for-user-postgres-postgresql-11-with-pg/55039419
+
+sudo -u postgres createuser am
+sudo -u postgres createdb id
+# sudo -u postgres psql -U postgres
+sudo -u postgres psql
+grant all privileges on database;
+\du
+\timing
+\q
+\l
+
+PGPASSWORD=postgres psql -U postgres -p 5432 -h localhost
+
+# golang examples
+https://golangdocs.com/golang-postgresql-example
+https://www.section.io/engineering-education/build-a-rest-api-application-using-golang-and-postgresql-database/
+
+# curl 
+https://docs.oracle.com/en/cloud/saas/marketing/eloqua-develop/Developers/GettingStarted/APIRequests/curl-requests.htm
+
+#KeyDB
+http://diego-pacheco.blogspot.com/2019/03/running-multithreaded-redis-using-keydb.html
+https://docs.keydb.dev/docs/ppa-deb/
+https://docs.keydb.dev/docs/first-test/
+
+keydb-server &
